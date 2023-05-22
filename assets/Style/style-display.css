@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+}
+
+
+/* estilos del padre*/
+.container{
+    margin: 50px;
+    padding: 25px;
+    border: 1px solid black;
+}
+
+
+/*estilos de los hijos*/
+
+.display{
+    border: 1px solid red;
+
+}
+
+span{
+    color: red;
+    border: 2px solid black;
+}
+
+/* La propiead displayn se utiliza para controlar el tipo de caja que se usa para un elemento HTML, controlo tambien el como se muestra en la pagina
+Esta propiedad es distinta de position porque se encarga de definir como se muestran u ocultan (NO SE ELIMINAN DEL CODIGO) los elementos en el navegador.
+
+none: hace que el elemento se oculta completamente y que no ocupe espacio en la pagina (no se elimina) y este valor se utiliza comunmente para ocultar elementos con la interaccion del tamanio de ventanas
+
+*/
+
+
+/*Estilos display-none*/
+
+#display-none{
+    display:none;
+}
+
+#display-inline{
+    display: inline;
+}
+
+li{
+    display: inline;
+}
+
+#display-block{
+    display: block;
+}
+
+#display-inline-block{
+    display: inline-block;
+}
